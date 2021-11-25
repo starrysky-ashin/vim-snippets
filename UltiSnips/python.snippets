@@ -737,14 +737,13 @@ snippet stsubsec "start a subsection"
 endsnippet
 
 snippet header "python document info" b!
-#!/usr/bin/env python
+!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-	file:        ${1:`!v vim_snippets#Filename('$1.py', 'foo.py')`}
-	author:      ${2:`!v g:snips_author`}
-	email:       ${3:`!v g:snips_email`}
-	github:      ${4:`!v g:snips_github`}
-	description: ${5:INFO}
+file:        ${1:`!v vim_snippets#Filename('$1.py', 'foo.py')`}
+author:      ${2:jinxin}
+email:       ${3:jinxin.ashin@outlook.com}
+description: ${4:INFO}
 """
 ${0}
 endsnippet
